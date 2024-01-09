@@ -9,5 +9,5 @@ socket.addEventListener('message', function (event) {
 });
 
 const sendMessage = () => {
-    socket.send('Hello from Client1!')
+    socket.send('Hello from Client2!')
 }
